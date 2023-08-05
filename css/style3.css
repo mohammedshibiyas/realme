@@ -1,0 +1,43 @@
+.card{
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.card h3{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+}
+form{
+    width: 100px;
+    height: 300px;
+}
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.397)) ,url(../images/top-view-external-hard-drives-arrangement.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+}
+.form-control{
+    background-color: transparent;
+}
+.back{
+        text-align: center;
+        margin-top: 70px;
+}
+.back span{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.back a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}

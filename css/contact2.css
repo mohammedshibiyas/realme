@@ -1,0 +1,152 @@
+.about h2{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    padding-top: 5px;
+    color: white;
+    font-family:'Josefin Sans', sans-serif ;
+}
+.about h2 span{
+    color: yellow;
+}
+.about{
+    padding-top: 30px;
+    
+}
+.about p{
+    color: white;
+    text-align: justify;
+}
+.aboutpara {
+    display: flex;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.413),rgba(0, 0, 0, 0.413)),url(../images/top-view-external-hard-drives-arrangement.jpg);
+    background-size: cover;
+    height: 1050px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.left img{
+    height: 30px;
+}
+
+.right{
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    
+}
+.right span{
+    border-bottom: 2px solid yellow;
+}
+.right a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);   
+    font-family: ProximaNova,Arial,Sans-serif;
+}
+.right a:hover{
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.contact h3,i{
+    color: white;
+    padding-left: 10%;
+
+}
+.contact h3{
+    font-family:'Josefin Sans', sans-serif ;
+    
+    
+}
+.contact i{
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  i span{
+    margin-left: 10px;
+    font-family:'Josefin Sans', sans-serif ;
+}
+.contact h3 span{
+    color: yellow;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.help h3{
+    color: white;
+    font-family:'Josefin Sans', sans-serif ;
+}
+.help span{
+    color: yellow;
+}
+.help p{
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif ;
+}
+.contact i:hover{
+    color: yellow;
+}
+.help p:hover{
+    color: yellow;
+}
+.reach-us{
+    color: white;
+    text-align: center;
+    /* padding-top: 1%; */
+}
+.reach-us h3{
+    font-family:'Josefin Sans', sans-serif  ;
+}
+.reach-us span{
+    color: yellow;
+}
+.email-sec{
+    width: 40%;
+}
+.reach-us input{
+    background-color: transparent;
+}
+.reach-us textarea{
+    background-color: transparent;
+}
+.email-sec{
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+}
+@media(min-width:300px) and (max-width:575.98px) {
+    .left{
+        width: 100%;
+        text-align: center;
+        margin-right: 2%;
+        
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        margin-left: 20%;
+        font-size: 11px;
+    }
+}

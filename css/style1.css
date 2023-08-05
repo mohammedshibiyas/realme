@@ -1,0 +1,153 @@
+.main{
+    
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+.image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.397)) ,url(../images/top-view-external-hard-drives-arrangement.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.left img{
+    height: 30px;
+}
+.right{
+    margin-right: 50px;
+    margin-top: 20px;
+    
+    
+}
+.right span{
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.right a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    color:black;   
+    font-family: ProximaNova,Arial,Sans-serif;
+}
+.right a:hover{
+    border-bottom: 2px solid yellow;
+}
+.card1{
+    margin-left: 30px;
+    padding-top: 20px;
+    height: 400px;
+    width: 200px;
+    border: 3px solid rgb(25, 255, 213);
+    box-shadow: 10px;
+}
+.card{
+    width:50px;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-text{
+    text-align: center;
+}
+.card-text span{
+    padding-top: 30px;
+    color: red;
+    font-weight: 800px;
+    
+}
+.card{
+    -webkit-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.52);
+-moz-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.52);
+box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.52);
+width: 100%;
+margin-top: 100px;
+margin-left: 30px;
+margin-right: 10px;
+justify-content: space-evenly;
+transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn1 {
+    text-align: center;
+   
+}
+.btn1 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.bar input{
+    border: none;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+}
+@media(min-width:300px) and (max-width:575.98px){
+
+    .right{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+
+        
+    }
+    .right a{
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .left{
+        width: 80%;
+        text-align: center;
+       
+       
+
+        
+    }
+    .left img{
+       
+     
+       text-align: center;
+       
+    }
+}
